@@ -49,7 +49,7 @@ function Navbar() {
             >
               Contact Us
             </a>
-            {/* <span className="relative hidden self-center lg:block">…</span> */}
+           
             <a
               href="#order"
               className="relative hidden hover:text-yellow-400 lg:block"
