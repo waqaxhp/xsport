@@ -8,3 +8,8 @@
   font-weight: 400;
   font-size: 14px;
 }
+.separator:before {
+  content: "\2301"; /* Unicode for ⌑ */
+  color: var(--current-color, #fcf7f7); /* Default color if not defined */
+  opacity: 0.5;
+}

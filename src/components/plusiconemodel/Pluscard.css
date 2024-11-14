@@ -1,0 +1,24 @@
+.pluscard_main {
+  background-image: url("./../../assets/sneakers-row-bg-qoqi7nr65uj2z0xyg2amqw8g404qfb0028ce7nobd4.jpeg");
+  height: 80vh;
+}
+.pluscard_main .glow {
+  border-radius: 50%;
+  animation: glow 1.5s infinite;
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow:
+      0 0 10px rgba(255, 215, 0, 0.5),
+      0 0 20px rgba(255, 215, 0, 0.3),
+      0 0 30px rgba(255, 215, 0, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 20px rgba(255, 215, 0, 0.7),
+      0 0 30px rgba(255, 215, 0, 0.5),
+      0 0 40px rgba(255, 215, 0, 0.3);
+  }
+}

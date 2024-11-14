@@ -1,0 +1,106 @@
+.footer_main {
+  background-image: url("./../../assets/Pattern.jpg");
+
+  min-height: 450px;
+}
+
+.footer_main a i {
+  font-size: 1.25rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer_main a i:hover {
+  color: #ccc;
+}
+
+/* Footer.css */
+
+.footer_main {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.footer-top {
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-top p,
+.footer-top span,
+.footer-top .flex {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer-top {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .footer-top .flex {
+    text-align: left;
+  }
+}
+
+.footer_main ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_main ul li {
+  margin: 0.5rem 0;
+}
+
+.footer_main ul li a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer_main ul li a:hover {
+  color: #a0aec0;
+}
+
+.footer_main form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_main input[type="email"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.footer_main button {
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.footer_main button:hover {
+  background-color: #444;
+}
+
+@media (min-width: 640px) {
+  .footer_main form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer_main input[type="email"] {
+    flex: 1;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+  }
+
+  .footer_main button {
+    flex-shrink: 0;
+  }
+}

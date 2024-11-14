@@ -1,3 +1,10 @@
+import Homefoter from "../../components/homefoter/Homefoter";
+import NewCollection from "../../components/newcollection/NewCollection";
+import Pluscard from "../../components/plusiconemodel/Pluscard";
+import Runerpics from "../../components/runerpics/runerpics";
+import Sixgroup from "../../components/sixgroup/Sixgroup";
+import TrailColection from "../../components/trailCloection/TrailColection";
+import Whatsnew from "../../components/whtasnew/Whatsnew";
 import "./Home.css";
 
 function Home() {
@@ -8,6 +15,15 @@ function Home() {
           Welcome to Our Website
         </h1>
       </div>
+      <NewCollection />
+      <Pluscard />
+      <Whatsnew />
+      <TrailColection />
+      <Whatsnew />
+
+      <Runerpics />
+      <Sixgroup />
+      <Homefoter />
     </>
   );
 }

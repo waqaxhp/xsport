@@ -1,3 +1,9 @@
 .main_container_home {
   background-image: url("./../../assets/home-bg.jpeg");
 }
+/* theme: {
+    colors: {
+      transparent: 'transparent',
+      navbar_hover_color: "#c8ff0b"
+    },
+  }, */

@@ -1,0 +1,17 @@
+.head_bgimg {
+  background-image: url("./../../assets/head1.jpg");
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.head_bgimg2 {
+  background-image: url("./../../assets/head2.jpg");
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
