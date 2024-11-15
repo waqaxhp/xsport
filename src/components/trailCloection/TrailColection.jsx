@@ -21,11 +21,6 @@ function TrailColection() {
               Trail Collection
             </h1>
 
-            {/* Tagline */}
-            {/* <p className="text-md lg:text-lg">
-              See why discover makes every mile count
-            </p> */}
-
             {/* Button */}
             <div className="flex justify-center gap-4">
               <button className="mt-4 transform rounded-md bg-white px-6 py-3 text-sm font-semibold uppercase italic text-black transition-all duration-300 ease-in-out hover:-translate-y-1 hover:bg-lime-400">

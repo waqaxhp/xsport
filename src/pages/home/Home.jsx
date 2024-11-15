@@ -1,8 +1,10 @@
+import Blogs from "../../components/bloogs/Bloogs";
 import Homefoter from "../../components/homefoter/Homefoter";
 import NewCollection from "../../components/newcollection/NewCollection";
 import Pluscard from "../../components/plusiconemodel/Pluscard";
 import Runerpics from "../../components/runerpics/runerpics";
 import Sixgroup from "../../components/sixgroup/Sixgroup";
+import TopTrending from "../../components/topTrending/topTrending";
 import TrailColection from "../../components/trailCloection/TrailColection";
 import Whatsnew from "../../components/whtasnew/Whatsnew";
 import "./Home.css";
@@ -19,8 +21,9 @@ function Home() {
       <Pluscard />
       <Whatsnew />
       <TrailColection />
+      <TopTrending />
       <Whatsnew />
-
+      <Blogs />
       <Runerpics />
       <Sixgroup />
       <Homefoter />
