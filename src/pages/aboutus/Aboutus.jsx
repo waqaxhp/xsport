@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import { motion } from "framer-motion";
-import Aboutusimg from "./../../assets/image-7.jpg";
+import Aboutusimg from "./../../assets/Image-7.jpg";
 import icone from "./../../assets/Icon.png";
 import icone2 from "./../../assets/Icon-2.png";
 import icone1 from "./../../assets/Icon-1.png";
